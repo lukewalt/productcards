@@ -1,4 +1,6 @@
 
+<-------------- General ---------------->
+
 #container {
   padding: 0;
   margin: 0;
@@ -23,6 +25,14 @@ article {
 }
 
 article h2 {
+  text-align: center;
   border: 1px solid black;
+}
 
+article section {
+  border: 1px solid black;
+}
+
+p {
+  display: block;
 }
