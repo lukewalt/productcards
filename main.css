@@ -2,37 +2,47 @@
 <-------------- General ---------------->
 
 #container {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-
-  -webkit-flex-flow: row wrap;
-  justify-content: space-around;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /*flex-direction: row;*/
 }
 
-article {
+.artc {
+  border: 1px solid lightblue;
+  width: 30%;
+  height: 30%;
+  margin: 5px 5px 5px 5px;
+}
+
+section {
   border: 1px solid black;
-  padding: 5px;
-  width: 500px;
-  height: 500px;
-  margin-top: 10px;
+  height: auto;
+  width: auto;
 }
 
-article h2 {
+section h2 {
   text-align: center;
-  border: 1px solid black;
+  border: 1px dotted lightgrey;
 }
 
-article section {
-  border: 1px solid black;
+img {
+  max-width: 100%;
+  max-height: 100%;
+  min-width: 100%;
+  min-height: 100%;
 }
 
 p {
   display: block;
+}
+
+figcaption {
+  padding: 5%;
+}
+
+#avail {
+  border: 1px solid black;
+  background-color: grey;
+  color: yellow;
 }
