@@ -46,3 +46,8 @@ figcaption {
   background-color: grey;
   color: yellow;
 }
+
+.sect-2, .sect-3 {
+  font-weight: bold;
+  font-size: 12px;
+}
