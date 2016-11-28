@@ -1,0 +1,53 @@
+
+<-------------- General ---------------->
+
+#container {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /*flex-direction: row;*/
+}
+
+.artc {
+  border: 1px solid lightblue;
+  width: 30%;
+  height: 30%;
+  margin: 5px 5px 5px 5px;
+}
+
+section {
+  border: 1px solid black;
+  height: auto;
+  width: auto;
+}
+
+section h2 {
+  text-align: center;
+  border: 1px dotted lightgrey;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+p {
+  display: block;
+}
+
+figcaption {
+  padding: 5%;
+}
+
+#avail {
+  border: 1px solid black;
+  background-color: grey;
+  color: yellow;
+}
+
+.sect-2, .sect-3 {
+  font-weight: bold;
+  font-size: 12px;
+}
